@@ -1,0 +1,32 @@
+.second__img {
+    margin:0 auto 30px;
+    display: block;
+    font-size: 0;
+}
+
+.second__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #5E5E5E;
+    padding: 15px 30px;
+    margin: 0;
+}
+
+.second__img5-wrapper {
+    border: 1px solid #000; 
+    margin-bottom: 30px;
+    font-size: 0;
+}
+
+.second__img6-wrapper {
+    padding: 0 58px;
+    margin-bottom: 30px;
+    font-size: 0;
+}
+
+.second__img7-wrapper {
+    padding: 0 29px;
+    margin-bottom: 30px;
+    font-size: 0;
+}
