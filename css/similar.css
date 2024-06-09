@@ -1,16 +1,16 @@
-.navigation__container {
+.similar__container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
-.navigation__wrapper {
+.similar__wrapper {
     background-color: #f1f1f1;
     border-radius: 10px;
     padding: 25px 45px;
 }
 
-.navigation__title {
+.similar__title {
     font-weight: 700;
     font-size: 44px;
     line-height: 120%;
@@ -18,9 +18,15 @@
     margin: 0 0 20px 0;
 }
 
-.navigation__list {
+.similar__list {
     padding-left: 20px;
     margin: 0;
+}
+
+.similar__list-result{
+    list-style-type: none;
+    margin: 0 0 30px 0;
+    padding-left: 0;
 }
 
 .list__item {
@@ -46,4 +52,22 @@
     content: '';
     border-bottom: 2px solid black;
     display: block;
+}
+
+.list__item-similar {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.list__item-similar::before {
+    content: '\2014';
+    margin-right: 10px;
+
+}
+
+.list__item-similar:last-child {
+    margin-bottom: 0;
 }

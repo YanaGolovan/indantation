@@ -11,20 +11,18 @@
 </head>
 
 <body>
-    <article>
-        <section class="desc section">
-            <div class="container">
-                <h1 class="desc__title">Отступы в вёрстке: margin и padding</h1>
-                <p class="desc__text text">В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. При этом другие части кода продолжат нормально работать.</p>
-                <p class="desc__text text">Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.</p>
-            </div>
-        </section>
+    <article class="content-article">
+        <h1 class="desc__title">Отступы в вёрстке: margin и padding</h1>
+        <div class="container container-desc">
+            <p class="desc__text text">В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. При этом другие части кода продолжат нормально работать.</p>
+            <p class="desc__text text">Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.</p>
+        </div>
 
-        <section class="navigation section">
-            <div class="navigation__container">
-                <div class="navigation__wrapper">
-                    <p class="navigation__title">Содержание:</p>
-                    <ol class="navigation__list">
+        <section class="similar section">
+            <div class="similar__container">
+                <div class="similar__wrapper">
+                    <p class="similar__title">Содержание:</p>
+                    <ol class="similar__list">
                         <li class="list__item">
                             <a class="navigation__link" href="#first">Отступ задается от предыдущего элемента к следующему</a>
                         </li>
@@ -72,10 +70,10 @@
                 <img class="second__img" src="img/image3.jpg" alt="пример html разметки">
                 <img class="second__img" src="img/image4.jpg" alt="пример отсттупов в тексте">
                 <p class="text">Отступ делают за счёт соседних элементов, а не дочерних:</p>
-                <div class="second__img5-wrapper">
+                <figure class="second__img5-wrapper">
                     <img class="second__img5" src="img/image5.jpg" alt="пример отступов в тексте">
-                    <p class="second__text">ВАЖНО: здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</p>
-                </div>
+                    <figcaption class="second__text">ВАЖНО: здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</figcaption>
+                </figure>
                 <p class="text">Казалось бы, можно задать отступ параграфу &lt;p&gt;, либо обёртке &lt;article>&gt; для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.</p>
                 <p class="text">Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.</p>
                 <img class="second__img" src="img/image6.jpg" alt="пример отступов в тексте">
@@ -105,17 +103,17 @@
             </div>
         </section>
 
-        <section class="result section">
-            <div class="result__container">
-                <div class="result__wrapper">
-                    <p class="result__title">Подытожим:</p>
-                    <ul class="result__list">
-                        <li class="list__item-result">отступы задаём от предыдущего элемента к следующему
+        <section class="similar section">
+            <div class="similar__container">
+                <div class="similar__wrapper">
+                    <p class="similar__title">Подытожим:</p>
+                    <ul class="similar__list-result">
+                        <li class="list__item-similar">отступы задаём от предыдущего элемента к следующему
                         </li>
-                        <li class="list__item-result">используем только margin-right и margin-bottom</li>
-                        <li class="list__item-result">внешние отступы задаются только между соседями</li>
-                        <li class="list__item-result">внутренний отступ задаём самому верхнему элементу в дом дереве</li>
-                        <li class="list__item-result">последнему элементу группы отступ всегда обнуляем</li>
+                        <li class="list__item-similar">используем только margin-right и margin-bottom</li>
+                        <li class="list__item-similar">внешние отступы задаются только между соседями</li>
+                        <li class="list__item-similar">внутренний отступ задаём самому верхнему элементу в дом дереве</li>
+                        <li class="list__item-similar">последнему элементу группы отступ всегда обнуляем</li>
                     </ul>
                     <p class="text">Конечно бывают исключения. Ведь макеты бывают различной сложности. Иногда базовые принципы приходится нарушать в угоду дизайнерского решения или простоты вёрстки. Но для этого эти принципы необходимо хорошо знать.</p>
                 </div>
