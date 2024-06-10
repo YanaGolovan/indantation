@@ -20,14 +20,8 @@
     font-size: 0;
 }
 
-.second__img6-wrapper {
-    padding: 0 58px;
-    margin-bottom: 30px;
-    font-size: 0;
+.second__img5 {
+    width: 100%;
+    border-top: 1px #000 solid;
 }
 
-.second__img7-wrapper {
-    padding: 0 29px;
-    margin-bottom: 30px;
-    font-size: 0;
-}
